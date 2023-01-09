@@ -23,7 +23,7 @@ int main () {
         printf("Bitte geben Sie die nTe Fibonacci Zahl an, die bestimmt werden soll.\n");
  	ausgabeErgebnis(eingabeZahl());  
 	printf("\n");
-	ausgabeErgebnis(eingabeZahl(),0);  
+	ausgabeErgebnisRueck(eingabeZahl(),0);  
 	
 	//Ende
 	printf("\n\n");
