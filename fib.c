@@ -53,6 +53,7 @@ int ausgabeErgebnis(int z) {
   if (z<0) {
 	  printf("\n");
 	  return 0;
+  }
   //Ergebnisausgabe
   printf("%d | ",fib(z));
   ausgabeErgebnis(z-1);
