@@ -4,6 +4,7 @@
 int fib(int f);
 int eingabeZahl();
 int ausgabeErgebnis(int z);
+int ausgabeErgebnisRueck(int z, int i);
 
 //Hauptprogramm
 int main () {
