@@ -20,7 +20,7 @@ int main () {
 	printf("\n *********************************** \n\n");
 	
 	//Funktionsaufruf
-  printf("Bitte geben Sie die nTe Fibonacci Zahl an, die bestimmt werden soll.\n");
+        printf("Bitte geben Sie die nTe Fibonacci Zahl an, die bestimmt werden soll.\n");
  	ausgabeErgebnis(eingabeZahl());  
 	
 	//Ende
