@@ -31,13 +31,15 @@ int main () {
 //Funktionen
 int fib(int f) {
   int z;
-  if (f==0||f==1)
+  if (f==0||f==1 {
     printf("%d | ",f);
     return f;
-  else 
+  }
+  else {
     z = (fib(f-1)+fib(f-2));
     printf("%d | ",z);
     return z;
+  }
 }
 
 int eingabeZahl() {
