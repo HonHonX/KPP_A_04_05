@@ -30,15 +30,10 @@ int main () {
 
 //Funktionen
 int fib(int f) {
-  int z;
-  if (f==0||f==1) {
-    printf("%d | ",f);
+  if (f==0||f==1)
     return f;
-  }
   else {
-    z = (fib(f-1)+fib(f-2));
-    printf("%d | ",z);
-    return z;
+    return (fib(f-1)+fib(f-2);
   }
 }
 
@@ -55,7 +50,10 @@ int eingabeZahl() {
 }
 
 int ausgabeErgebnis(int z) {
+  if (z<0)
+	  break;
   //Ergebnisausgabe
-  printf("\nDie Fibonacci Folge lautet: %d\n",fib(z));
+  printf("%d | \n",fib(z));
+  ausgabeErgebnis(z-1);
 }
      
