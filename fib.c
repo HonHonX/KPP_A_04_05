@@ -69,6 +69,6 @@ int ausgabeErgebnisRueck(int z, int i) {
   }
   //Ergebnisausgabe
   printf("%d | ",fib(i));
-  ausgabeErgebnis(z,i+1);
+  ausgabeErgebnisRueck(z,i+1);
 }
      
