@@ -24,8 +24,12 @@ int main () {
         printf("Bitte geben Sie die nTe Fibonacci Zahl an, die bestimmt werden soll.\n");
 	int n = eingabeZahl();
 	printf("\n");
+	
+	//Ausgabe der absteigenden Folge 
  	ausgabeErgebnis(n);  
 	printf("\n");
+	
+	//Ausgabe der aufsteigenden Folge 
 	ausgabeErgebnisRueck(n,0);  
 	
 	//Ende
@@ -35,6 +39,7 @@ int main () {
 
 //Funktionen
 int fib(int f) {
+  //Bei den ersten beiden Zahlen der Fibonacci Folge, F0 und F1,entspricht der Wert f
   if (f==0||f==1)
     return f;
   else {
