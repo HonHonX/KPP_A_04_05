@@ -55,6 +55,7 @@ int eingabeZahl() {
 }
 
 int ausgabeErgebnis(int z) {
+  //Die Ausgabe soll abbrechen, sobald z kleiner 0 ist (dann ist man bei der 0.Stelle angekommen)
   if (z<0) {
 	  printf("\n");
 	  return 0;
@@ -65,6 +66,7 @@ int ausgabeErgebnis(int z) {
 }
 
 int ausgabeErgebnisRueck(int z, int i) {
+  //i ist eine Zählvariable, bei z wird die Eingabe durch den Nutzer hinterlegt. Die Rekursion bricht ab, nachdem die Zählvariable den Wert von z erreicht hat.
   if (i>z) {
 	  printf("\n");
 	  return 0;
