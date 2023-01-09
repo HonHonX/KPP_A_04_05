@@ -64,7 +64,7 @@ int ausgabeErgebnis(int z) {
 }
 
 int ausgabeErgebnisRueck(int z, int i) {
-  if (i==z) {
+  if (i>z) {
 	  printf("\n");
 	  return 0;
   }
