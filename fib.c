@@ -33,7 +33,7 @@ int fib(int f) {
   if (f==0||f==1)
     return f;
   else {
-    return (fib(f-1)+fib(f-2);
+    return fib(f-1)+fib(f-2);
   }
 }
 
@@ -51,7 +51,7 @@ int eingabeZahl() {
 
 int ausgabeErgebnis(int z) {
   if (z<0)
-	  break;
+	  return 0;
   //Ergebnisausgabe
   printf("%d | \n",fib(z));
   ausgabeErgebnis(z-1);
