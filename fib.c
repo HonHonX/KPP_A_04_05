@@ -22,6 +22,8 @@ int main () {
 	//Funktionsaufruf
         printf("Bitte geben Sie die nTe Fibonacci Zahl an, die bestimmt werden soll.\n");
  	ausgabeErgebnis(eingabeZahl());  
+	printf("\n");
+	ausgabeErgebnis(eingabeZahl(),0);  
 	
 	//Ende
 	printf("\n\n");
@@ -57,5 +59,15 @@ int ausgabeErgebnis(int z) {
   //Ergebnisausgabe
   printf("%d | ",fib(z));
   ausgabeErgebnis(z-1);
+}
+
+int ausgabeErgebnisRueck(int z, int i) {
+  if (i=z) {
+	  printf("\n");
+	  return 0;
+  }
+  //Ergebnisausgabe
+  printf("%d | ",fib(i));
+  ausgabeErgebnis(z,i+1);
 }
      
