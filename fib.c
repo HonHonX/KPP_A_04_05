@@ -31,7 +31,7 @@ int main () {
 //Funktionen
 int fib(int f) {
   int z;
-  if (f==0||f==1 {
+  if (f==0||f==1) {
     printf("%d | ",f);
     return f;
   }
